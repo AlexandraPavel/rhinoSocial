@@ -1,8 +1,8 @@
 const mongoose = require('mongoose')
-const databaseName = 'Rinocer'
+const databaseName = ""
 const connect = async() => {
     try{
- await mongoose.connect(`mongodb+srv://rinocer:portocaliu@clusterrinocer.dva9c.mongodb.net/${databaseName}`, {
+ await mongoose.connect(`mongodb+srv://<username>:<password>@clusterrinocer.dva9c.mongodb.net/${databaseName}`, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false
