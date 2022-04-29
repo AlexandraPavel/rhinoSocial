@@ -1,0 +1,25 @@
+{
+  "name": "itschool-final-project-1-backend",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/eestec-bucharest/it-school/itschool-2022/itschool-final-project-1-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/eestec-bucharest/it-school/itschool-2022/itschool-final-project-1-backend/issues"
+  },
+  "homepage": "https://gitlab.com/eestec-bucharest/it-school/itschool-2022/itschool-final-project-1-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^5.3.16"
+  }
+}
